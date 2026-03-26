@@ -1,8 +1,8 @@
 
 
-from extract.emdat_extract import downlod_emdat
-from extract.gdacs_extract import get_gdcs
-from extract.worldbank_extract import worldbank_indicators
+from src.extract.emdat_extract import downlod_emdat
+from src.extract.gdacs_extract import get_gdcs
+from src.extract.worldbank_extract import worldbank_indicators
 
 
 def execute_pipeline():
