@@ -1,0 +1,65 @@
+Script started on 2026-03-26 08:06:54+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="189" LINES="13"]
+$ . .venv/bin/activate
+(.venv) $ touch src/extract/emdat_extract.py
+(.venv) $ touch src/extract/worldbank_extract.py
+(.venv) $ touch src/extract/gdacs_extract.py
+(.venv) $ touch docs/step2_extraction.md
+(.venv) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdocs/step2_extraction.md[m
+	[31mlogs/step2_extraction.log[m
+	[31msrc/extract/emdat_extract.py[m
+	[31msrc/extract/gdacs_extract.py[m
+	[31msrc/extract/worldbank_extract.py[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(.venv) $ git add .
+(.venv) $ git commit -m 'Extraction foo lders created'
+[main 46ca725] Extraction folders created
+ Committer: Dilani Nadeesha Jayasuriya <20093736@mydbs.ie@DBSMOLT.15vnrprwgtrexkhakcsiu5ib3h.parx.internal.cloudapp.net>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 docs/step2_extraction.md
+ create mode 100644 logs/step2_extraction.log
+ create mode 100644 src/extract/emdat_extract.py
+ create mode 100644 src/extract/gdacs_extract.py
+ create mode 100644 src/extract/worldbank_extract.py
+(.venv) $ git push
+Username for 'https://github.com': nadeeshaJ
+Password for 'https://nadeeshaJ@github.com': 
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 730 bytes | 730.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/nadeeshaJ/20093736--ETL-Disaster-PipelineV2.git
+   381582c..46ca725  main -> main
+(.venv) $ ```bash
+> exit
+> git status
+> ^[[A^[[A^[[B            git status
+> ls
+> ^C
+(.venv) $ ```bash
+> exit
+> ^C
+(.venv) $ exit
+
+Script done on 2026-03-26 08:22:26+00:00 [COMMAND_EXIT_CODE="130"]
