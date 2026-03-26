@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 
 import pandas as pd
@@ -35,6 +36,13 @@ def get_worldbank(indicator):
 
     # create folder if does not exist
     os.makedirs("data/raw/worldbank", exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # save files names with time
+    file_name = f"data/raw/emdat/emdat_{timestamp}.xlsx"
+    
+    
+    df.to_csv(file_name, index=False) # csv file
+    print("EM-DAT Data: ", file_name)
 
 
 # indicators
