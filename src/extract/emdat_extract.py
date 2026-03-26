@@ -3,7 +3,7 @@ import os
 import requests
 
 
-# download EM-DAT data from https://public.emdat.be/data 
+# extract EM-DAT data from https://public.emdat.be/data 
 
 def downlod_emdat() :
 
@@ -48,6 +48,7 @@ def downlod_emdat() :
     with open(file_name , "wb") as f:
         f.write(file_data)
     print("EM-DAT Data: ", file_name)
+
 
 # default function
 if __name__ == "__main__":
