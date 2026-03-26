@@ -1,0 +1,17 @@
+Script started on 2026-03-26 23:45:51+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="189" LINES="13"]
+(.venv) $ tail -f /home/20093736/etl_log.txt
+GDACS Data:  data/raw/gdacs/gdacs_20260326_234405.csv
+Starting the pipeline
+Downloading EM-DAT dataset
+EM-DAT Data:  data/raw/emdat/emdat_20260326_234504.xlsx
+Downloading World Bank dataset: DT.ODA.ALLD.CD
+World Bank Data:  data/raw/worldbank/DT.ODA.ALLD.CD_20260326_234504.csv
+Downloading World Bank dataset: DT.ODA.ODAT.GN.ZS
+World Bank Data:  data/raw/worldbank/DT.ODA.ODAT.GN.ZS_20260326_234505.csv
+Downloading GDACS alerts
+GDACS Data:  data/raw/gdacs/gdacs_20260326_234505.csv
+exit
+^C
+(.venv) $ exit
+
+Script done on 2026-03-26 23:46:24+00:00 [COMMAND_EXIT_CODE="130"]
