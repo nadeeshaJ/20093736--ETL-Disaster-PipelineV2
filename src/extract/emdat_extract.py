@@ -1,4 +1,4 @@
-import request
+import requests
 
 
 
@@ -10,13 +10,20 @@ def downlod_emdat() :
     print("Downloading EM-DAT dataset")
 
     api_url = "https://data.humdata.org/api/3/action/package_show?id=emdat-country-profiles"
-    response = request.get(api_url)
+    response = requests.get(api_url)
 
-   # print(response.status_code)
+    # print(response.status_code)
 
     data = response.json()
 
-    print(data)
+    #print(data.keys())
+
+    resources = data["result"]["resources"]
+
+    print(resources)
+
+    # find downloadable link with .xlsx format from resources
+    
 
 if __name__ == "__main__":
     downlod_emdat()
