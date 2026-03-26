@@ -1,8 +1,6 @@
 from datetime import datetime
-
+import os
 import requests
-
-
 
 
 # download EM-DAT data from https://public.emdat.be/data 
@@ -34,14 +32,24 @@ def downlod_emdat() :
             file_url = url
             break
 
+    # file not found error validation
+    if file_url is None :
+        print("Em_DAT file not found")
+        return
+    
     file_data = requests.get(file_url).content
+
+    # create folder if does not exist
+    os.makedirs("data/raw/emdat", exist_ok=True)
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # save files names with time
     file_name = f"data/raw/emdat/emdat_{timestamp}.xlsx"
+    
     with open(file_name , "wb") as f:
         f.write(file_data)
-    print("Saved EMDAT", file_name)
+    print("EM-DAT Data: ", file_name)
 
-
+# default function
 if __name__ == "__main__":
     downlod_emdat()
 
