@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import requests
 
 
@@ -20,10 +22,25 @@ def downlod_emdat() :
 
     resources = data["result"]["resources"]
 
-    print(resources)
+    #print(resources)
 
     # find downloadable link with .xlsx format from resources
-    
+    file_url = None
+
+    for res in resources :
+        url = res.get("download_url")
+        #print(f"Checking: {url}")
+        if url and (url.endswith(".xlsx") or url.endswith(".csv")) :
+            file_url = url
+            break
+
+    file_data = requests.get(file_url).content
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # save files names with time
+    file_name = f"data/raw/emdat/emdat_{timestamp}.xlsx"
+    with open(file_name , "wb") as f:
+        f.write(file_data)
+    print("Saved EMDAT", file_name)
+
 
 if __name__ == "__main__":
     downlod_emdat()
