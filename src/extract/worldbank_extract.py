@@ -1,17 +1,20 @@
 from datetime import datetime
-import os
-
+from pathlib import Path
 import pandas as pd
 import requests
 
 # extract world bank data with indicators Net ODA recived and Net ODA recived as % of GNI
-def get_worldbank(indicator):
+
+def get_timestamp():
+    return datetime.now().strftime("%Y%m%d_%H%M%S")
+
+def get_worldbank(indicator_code):
      
-    print("Downloading World Bank dataset:" , indicator)
+    print("Downloading World Bank dataset:" , indicator_code)
 
-    api_url = f"https://api.worldbank.org/v2/country/all/indicator/{indicator}?format=json&per_page=20000"
-    response = requests.get(api_url)
-
+    api_url = f"https://api.worldbank.org/v2/country/all/indicator/{indicator_code}?format=json&per_page=20000"
+    response = requests.get(api_url, timeout= 60)
+    response.raise_for_status()
     data = response.json()
 
     #print(data[0])
@@ -21,39 +24,45 @@ def get_worldbank(indicator):
     rows = []
 
     # select country, value, isoo3, year columns only
-    for item in records: 
-        rows.append(
-            {
-                "country" : item["country"]["value"],
-                "iso3" : item["countryiso3code"],
-                "year" : item["date"],
-                "value" : item["value"]
-            }
-        )
+    if len(records) > 1:
+        for item in records: 
+            rows.append(
+                {
+                    "country" : item["country"]["value"] if item.get("country") else None,
+                    "iso3" : item["countryiso3code"],
+                    "year" : item["date"],
+                    "value" : item["value"],
+                    "indicator" : indicator_code
+                }
+            )
 
     # shape into pandas dataframe
     df = pd.DataFrame(rows)
 
+
+# data extraction
+def worldbank_extraction():
+
+    save_folder = Path(("data/raw/worldbank"))
     # create folder if does not exist
-    os.makedirs("data/raw/worldbank", exist_ok=True)
+    save_folder.mkdir(parents=True, exist_ok=True)
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # save files names with time
-    file_name = f"data/raw/worldbank/{indicator}_{timestamp}.csv"
+    indicators = {
+        "DT.ODA.ALLD.CD": "oda_received_usd",
+        "DT.ODA.ODAT.MP.ZS": "aid_as_percent_imports"
+    }
     
     
-    df.to_csv(file_name, index=False) # csv file
-    print("World Bank Data: ", file_name)
-
-
-# indicators
-def worldbank_indicators():
-
-    # Net ODA recived 
-    get_worldbank("DT.ODA.ALLD.CD")
-
-    # Net ODA recived as % of GNI
-    get_worldbank("DT.ODA.ODAT.GN.ZS")
+    print("World Bank Data: ", save_folder)
+    
+    for code, name in indicators.items():
+        df = get_worldbank(code)
+        file_path = save_folder / f"{name}_{get_timestamp()}.csv" # csv file
+        print(df)
+        df.to_csv(file_path, index=False)
+        print("Saved:", file_path)
+        print("Shape:", df.shape)
 
 # default function
 if __name__ == "__main__":
-    worldbank_indicators()
+    worldbank_extraction()
