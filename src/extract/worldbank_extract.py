@@ -8,7 +8,7 @@ import requests
 def get_timestamp():
     return datetime.now().strftime("%Y%m%d_%H%M%S")
 
-def get_worldbank(indicator_code):
+def get_worldbank_data(indicator_code):
      
     print("Downloading World Bank dataset:" , indicator_code)
 
@@ -37,7 +37,7 @@ def get_worldbank(indicator_code):
             )
 
     # shape into pandas dataframe
-    df = pd.DataFrame(rows)
+    return  pd.DataFrame(rows)
 
 
 # data extraction
@@ -53,12 +53,9 @@ def worldbank_extraction():
     }
     
     
-    print("World Bank Data: ", save_folder)
-    
     for code, name in indicators.items():
-        df = get_worldbank(code)
+        df = get_worldbank_data(code)
         file_path = save_folder / f"{name}_{get_timestamp()}.csv" # csv file
-        print(df)
         df.to_csv(file_path, index=False)
         print("Saved:", file_path)
         print("Shape:", df.shape)

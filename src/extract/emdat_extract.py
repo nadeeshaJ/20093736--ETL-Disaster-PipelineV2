@@ -10,44 +10,42 @@ def downlod_emdat() :
     print("Downloading EM-DAT dataset")
 
     api_url = "https://data.humdata.org/api/3/action/package_show?id=emdat-country-profiles"
-    response = requests.get(api_url)
-
-    # print(response.status_code)
+    response = requests.get(api_url, timeout= 60)
+    response.raise_for_status()
 
     data = response.json()
-
-    #print(data.keys())
-
     resources = data["result"]["resources"]
-
-    #print(resources)
 
     # find downloadable link with .xlsx format from resources
     file_url = None
+    version_label = None
 
     for res in resources :
         url = res.get("download_url")
-        #print(f"Checking: {url}")
+        description = res.get("description", "")
+        
         if url and (url.endswith(".xlsx") or url.endswith(".csv")) :
             file_url = url
+            version_label = description
             break
 
     # file not found error validation
     if file_url is None :
-        print("Em_DAT file not found")
-        return
-    
-    file_data = requests.get(file_url).content
+        raise Exception("Em_DAT file not found.")
 
     # create folder if does not exist
     os.makedirs("data/raw/emdat", exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # save files names with time
     file_name = f"data/raw/emdat/emdat_{timestamp}.xlsx"
+
+    file_data = requests.get(file_url, timeout=120)
+    file_data.raise_for_status()
     
     with open(file_name , "wb") as f:
-        f.write(file_data)
-    print("EM-DAT Data: ", file_name)
+        f.write(file_data.content)
+    print("EM-DAT downloaded: ", file_name)
+    print("Version:", version_label)
 
 
 # default function
