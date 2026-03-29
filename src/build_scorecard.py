@@ -67,24 +67,17 @@ def load_worldbank():
 def prepare_emdat_summary(emdat_df):
     emdat_df.columns = [col.strip() for col in emdat_df.columns]
 
-    if "ISO" in emdat_df.columns:
-        emdat_df["iso3"] = emdat_df["ISO"]
+    # fix mapping issue summary
 
-    if "Country" in emdat_df.columns:
-        emdat_df["country"] = emdat_df["Country"]
+    emdat_df["iso3"] = emdat_df["#country +code"]
 
-    if "Year" in emdat_df.columns:
-        emdat_df["year"] = emdat_df["Year"]
+    emdat_df["country"] = emdat_df["#country +name"]
 
-    if "Total Deaths" in emdat_df.columns:
-        emdat_df["total_deaths"] = pd.to_numeric(emdat_df["Total Deaths"], errors="coerce")
-    else:
-        emdat_df["total_deaths"] = 0
+    emdat_df["year"] = pd.to_numeric(emdat_df["#date +occurred"], errors="coerce")
 
-    if "Total Affected" in emdat_df.columns:
-        emdat_df["total_affected"] = pd.to_numeric(emdat_df["Total Affected"], errors="coerce")
-    else:
-        emdat_df["total_affected"] = 0
+    emdat_df["total_deaths"] = pd.to_numeric(emdat_df["#affected +ind +killed"], errors="coerce")
+
+    emdat_df["total_affected"] = pd.to_numeric(emdat_df["#affected +ind"], errors="coerce")
 
     summary = emdat_df.groupby(["iso3", "country"]).agg(
         historical_disaster_count=("year", "count"),
