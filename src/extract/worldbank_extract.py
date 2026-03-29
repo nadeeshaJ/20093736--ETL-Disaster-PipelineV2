@@ -49,7 +49,7 @@ def worldbank_extraction():
 
     indicators = {
         "DT.ODA.ALLD.CD": "oda_received_usd",
-        "DT.ODA.ODAT.MP.ZS": "aid_as_percent_imports"
+        "DT.ODA.ODAT.MP.ZS": "aid_dependency_percent_gni"
     }
     
     
