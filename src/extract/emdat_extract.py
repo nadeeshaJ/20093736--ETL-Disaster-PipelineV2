@@ -5,7 +5,7 @@ import requests
 
 # extract EM-DAT data from https://public.emdat.be/data 
 
-def downlod_emdat() :
+def emdat_extraction() :
 
     print("Downloading EM-DAT dataset")
 
@@ -50,5 +50,5 @@ def downlod_emdat() :
 
 # default function
 # if __name__ == "__main__":
-#     downlod_emdat()
+#     emdat_extraction()
 

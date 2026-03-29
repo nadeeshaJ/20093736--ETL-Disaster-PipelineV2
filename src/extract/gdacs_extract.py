@@ -4,11 +4,11 @@ import pandas as pd
 import requests
 
 # extract current disaster alerts from GDACS
-def get_gdcs():
+def gdcs_extraction():
      
     print("Downloading GDACS alerts")
 
-    api_url = "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH"
+    api_url = "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH" 
     params = {
         "fromdate": "2025-01-01",
         "todate": datetime.now().strftime("%Y-%m-%d"),
@@ -64,4 +64,4 @@ def get_gdcs():
 
 # default function
 # if __name__ == "__main__":
-#     get_gdcs()
+#     gdcs_extraction()
