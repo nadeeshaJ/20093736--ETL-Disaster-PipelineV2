@@ -169,6 +169,7 @@ def build_scorecard():
     scorecard["average_affected_population"] = scorecard["average_affected_population"].fillna(0)
     scorecard["aid_received_usd"] = scorecard["aid_received_usd"].fillna(0)
     scorecard["aid_dependency_percent_gni"] = scorecard["aid_dependency_percent_gni"].fillna(0)
+    scorecard["iso3"] = scorecard["iso3"].fillna("UNK")
     scorecard["severity"] = pd.to_numeric(scorecard["severity"], errors="coerce").fillna(0)
     scorecard["population"] = pd.to_numeric(scorecard["population"], errors="coerce").fillna(0)
 
