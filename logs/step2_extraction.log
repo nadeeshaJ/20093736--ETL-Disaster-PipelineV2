@@ -1,65 +1,70 @@
-Script started on 2026-03-26 08:06:54+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="189" LINES="13"]
+Script started on 2026-03-26 23:17:32+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="189" LINES="13"]
+$ git pull
+remote: Enumerating objects: 66, done.[K
+remote: Counting objects:   1% (1/63)[Kremote: Counting objects:   3% (2/63)[Kremote: Counting objects:   4% (3/63)[Kremote: Counting objects:   6% (4/63)[Kremote: Counting objects:   7% (5/63)[Kremote: Counting objects:   9% (6/63)[Kremote: Counting objects:  11% (7/63)[Kremote: Counting objects:  12% (8/63)[Kremote: Counting objects:  14% (9/63)[Kremote: Counting objects:  15% (10/63)[Kremote: Counting objects:  17% (11/63)[Kremote: Counting objects:  19% (12/63)[Kremote: Counting objects:  20% (13/63)[Kremote: Counting objects:  22% (14/63)[Kremote: Counting objects:  23% (15/63)[Kremote: Counting objects:  25% (16/63)[Kremote: Counting objects:  26% (17/63)[Kremote: Counting objects:  28% (18/63)[Kremote: Counting objects:  30% (19/63)[Kremote: Counting objects:  31% (20/63)[Kremote: Counting objects:  33% (21/63)[Kremote: Counting objects:  34% (22/63)[Kremote: Counting objects:  36% (23/63)[Kremote: Counting objects:  38% (24/63)[Kremote: Counting objects:  39% (25/63)[Kremote: Counting objects:  41% (26/63)[Kremote: Counting objects:  42% (27/63)[Kremote: Counting objects:  44% (28/63)[Kremote: Counting objects:  46% (29/63)[Kremote: Counting objects:  47% (30/63)[Kremote: Counting objects:  49% (31/63)[Kremote: Counting objects:  50% (32/63)[Kremote: Counting objects:  52% (33/63)[Kremote: Counting objects:  53% (34/63)[Kremote: Counting objects:  55% (35/63)[Kremote: Counting objects:  57% (36/63)[Kremote: Counting objects:  58% (37/63)[Kremote: Counting objects:  60% (38/63)[Kremote: Counting objects:  61% (39/63)[Kremote: Counting objects:  63% (40/63)[Kremote: Counting objects:  65% (41/63)[Kremote: Counting objects:  66% (42/63)[Kremote: Counting objects:  68% (43/63)[Kremote: Counting objects:  69% (44/63)[Kremote: Counting objects:  71% (45/63)[Kremote: Counting objects:  73% (46/63)[Kremote: Counting objects:  74% (47/63)[Kremote: Counting objects:  76% (48/63)[Kremote: Counting objects:  77% (49/63)[Kremote: Counting objects:  79% (50/63)[Kremote: Counting objects:  80% (51/63)[Kremote: Counting objects:  82% (52/63)[Kremote: Counting objects:  84% (53/63)[Kremote: Counting objects:  85% (54/63)[Kremote: Counting objects:  87% (55/63)[Kremote: Counting objects:  88% (56/63)[Kremote: Counting objects:  90% (57/63)[Kremote: Counting objects:  92% (58/63)[Kremote: Counting objects:  93% (59/63)[Kremote: Counting objects:  95% (60/63)[Kremote: Counting objects:  96% (61/63)[Kremote: Counting objects:  98% (62/63)[Kremote: Counting objects: 100% (63/63)[Kremote: Counting objects: 100% (63/63), done.[K
+remote: Compressing objects:   2% (1/36)[Kremote: Compressing objects:   5% (2/36)[Kremote: Compressing objects:   8% (3/36)[Kremote: Compressing objects:  11% (4/36)[Kremote: Compressing objects:  13% (5/36)[Kremote: Compressing objects:  16% (6/36)[Kremote: Compressing objects:  19% (7/36)[Kremote: Compressing objects:  22% (8/36)[Kremote: Compressing objects:  25% (9/36)[Kremote: Compressing objects:  27% (10/36)[Kremote: Compressing objects:  30% (11/36)[Kremote: Compressing objects:  33% (12/36)[Kremote: Compressing objects:  36% (13/36)[Kremote: Compressing objects:  38% (14/36)[Kremote: Compressing objects:  41% (15/36)[Kremote: Compressing objects:  44% (16/36)[Kremote: Compressing objects:  47% (17/36)[Kremote: Compressing objects:  50% (18/36)[Kremote: Compressing objects:  52% (19/36)[Kremote: Compressing objects:  55% (20/36)[Kremote: Compressing objects:  58% (21/36)[Kremote: Compressing objects:  61% (22/36)[Kremote: Compressing objects:  63% (23/36)[Kremote: Compressing objects:  66% (24/36)[Kremote: Compressing objects:  69% (25/36)[Kremote: Compressing objects:  72% (26/36)[Kremote: Compressing objects:  75% (27/36)[Kremote: Compressing objects:  77% (28/36)[Kremote: Compressing objects:  80% (29/36)[Kremote: Compressing objects:  83% (30/36)[Kremote: Compressing objects:  86% (31/36)[Kremote: Compressing objects:  88% (32/36)[Kremote: Compressing objects:  91% (33/36)[Kremote: Compressing objects:  94% (34/36)[Kremote: Compressing objects:  97% (35/36)[Kremote: Compressing objects: 100% (36/36)[Kremote: Compressing objects: 100% (36/36), done.[K
+Unpacking objects:   1% (1/59)Unpacking objects:   3% (2/59)Unpacking objects:   5% (3/59)Unpacking objects:   6% (4/59)Unpacking objects:   8% (5/59)Unpacking objects:  10% (6/59)Unpacking objects:  11% (7/59)Unpacking objects:  13% (8/59)Unpacking objects:  15% (9/59)Unpacking objects:  16% (10/59)Unpacking objects:  18% (11/59)Unpacking objects:  20% (12/59)Unpacking objects:  22% (13/59)Unpacking objects:  23% (14/59)Unpacking objects:  25% (15/59)Unpacking objects:  27% (16/59)Unpacking objects:  28% (17/59)Unpacking objects:  30% (18/59)Unpacking objects:  32% (19/59)Unpacking objects:  33% (20/59)remote: Total 59 (delta 25), reused 52 (delta 18), pack-reused 0 (from 0)[K
+Unpacking objects:  35% (21/59)Unpacking objects:  37% (22/59)Unpacking objects:  38% (23/59)Unpacking objects:  40% (24/59)Unpacking objects:  42% (25/59)Unpacking objects:  44% (26/59)Unpacking objects:  45% (27/59)Unpacking objects:  47% (28/59)Unpacking objects:  49% (29/59)Unpacking objects:  50% (30/59)Unpacking objects:  52% (31/59)Unpacking objects:  54% (32/59)Unpacking objects:  55% (33/59)Unpacking objects:  57% (34/59)Unpacking objects:  59% (35/59)Unpacking objects:  61% (36/59)Unpacking objects:  62% (37/59)Unpacking objects:  64% (38/59)Unpacking objects:  66% (39/59)Unpacking objects:  67% (40/59)Unpacking objects:  69% (41/59)Unpacking objects:  71% (42/59)Unpacking objects:  72% (43/59)Unpacking objects:  74% (44/59)Unpacking objects:  76% (45/59)Unpacking objects:  77% (46/59)Unpacking objects:  79% (47/59)Unpacking objects:  81% (48/59)Unpacking objects:  83% (49/59)Unpacking objects:  84% (50/59)Unpacking objects:  86% (51/59)Unpacking objects:  88% (52/59)Unpacking objects:  89% (53/59)Unpacking objects:  91% (54/59)Unpacking objects:  93% (55/59)Unpacking objects:  94% (56/59)Unpacking objects:  96% (57/59)Unpacking objects:  98% (58/59)Unpacking objects: 100% (59/59)Unpacking objects: 100% (59/59), 664.99 KiB | 6.04 MiB/s, done.
+From https://github.com/nadeeshaJ/20093736--ETL-Disaster-PipelineV2
+   0b1668d..20e7e89  main       -> origin/main
+Updating 0b1668d..20e7e89
+Fast-forward
+ data/raw/emdat/emdat_20260326_192234.xlsx                |   Bin [31m0[m -> [32m402333[m bytes
+ data/raw/gdacs/gdacs_20260326_225905.csv                 |   101 [32m+[m
+ data/raw/worldbank/DT.ODA.ALLD.CD_20260326_230034.csv    | 17557 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ data/raw/worldbank/DT.ODA.ODAT.GN.ZS_20260326_230035.csv | 17557 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ run_pipeline.py                                          |    24 [32m+[m
+ src/extract/emdat_extract.py                             |    56 [32m+[m
+ src/extract/gdacs_extract.py                             |    54 [32m+[m
+ src/extract/worldbank_extract.py                         |    59 [32m+[m
+ 8 files changed, 35408 insertions(+)
+ create mode 100644 data/raw/emdat/emdat_20260326_192234.xlsx
+ create mode 100644 data/raw/gdacs/gdacs_20260326_225905.csv
+ create mode 100644 data/raw/worldbank/DT.ODA.ALLD.CD_20260326_230034.csv
+ create mode 100644 data/raw/worldbank/DT.ODA.ODAT.GN.ZS_20260326_230035.csv
 $ . .venv/bin/activate
-(.venv) $ touch src/extract/emdat_extract.py
-(.venv) $ touch src/extract/worldbank_extract.py
-(.venv) $ touch src/extract/gdacs_extract.py
-(.venv) $ touch docs/step2_extraction.md
-(.venv) $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+(.venv) $ python run_pipeline.py
+Traceback (most recent call last):
+  File "/home/20093736/20093736--ETL-Disaster-PipelineV2/run_pipeline.py", line 3, in <module>
+    from extract.emdat_extract import downlod_emdat
+ModuleNotFoundError: No module named 'extract'
+(.venv) $ ls
+README.md  data  docs  logs  requirements.txt  run_pipeline.py	src  tests
+(.venv) $ git pull
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects: 100% (1/1)[Kremote: Compressing objects: 100% (1/1), done.[K
+Unpacking objects:  33% (1/3)remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0 (from 0)[K
+Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+From https://github.com/nadeeshaJ/20093736--ETL-Disaster-PipelineV2
+   20e7e89..5d9cf0b  main       -> origin/main
+Updating 20e7e89..5d9cf0b
+Fast-forward
+ run_pipeline.py | 6 [32m+++[m[31m---[m
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+(.venv) $ python run_pipeline.py
+Starting the pipeline
+Downloading EM-DAT dataset
+EM-DAT Data:  data/raw/emdat/emdat_20260326_232218.xlsx
+Downloading World Bank dataset: DT.ODA.ALLD.CD
+World Bank Data:  data/raw/worldbank/DT.ODA.ALLD.CD_20260326_232219.csv
+Downloading World Bank dataset: DT.ODA.ODAT.GN.ZS
+World Bank Data:  data/raw/worldbank/DT.ODA.ODAT.GN.ZS_20260326_232220.csv
+Downloading GDACS alerts
+GDACS Data:  data/raw/gdacs/gdacs_20260326_232220.csv
+(.venv) $ find data/raw -type f
+data/raw/emdat/emdat_20260326_232218.xlsx
+data/raw/emdat/emdat_20260326_192234.xlsx
+data/raw/gdacs/gdacs_20260326_232220.csv
+data/raw/gdacs/gdacs_20260326_225905.csv
+data/raw/worldbank/DT.ODA.ALLD.CD_20260326_230034.csv
+data/raw/worldbank/DT.ODA.ALLD.CD_20260326_232219.csv
+data/raw/worldbank/DT.ODA.ODAT.GN.ZS_20260326_230035.csv
+data/raw/worldbank/DT.ODA.ODAT.GN.ZS_20260326_232220.csv
+(.venv) $ ls -lh data/raw/emdat
+total 792K
+-rw-rw-r-- 1 20093736@mydbs.ie 20093736@mydbs.ie 393K Mar 26 23:17 emdat_20260326_192234.xlsx
+-rw-rw-r-- 1 20093736@mydbs.ie 20093736@mydbs.ie 393K Mar 26 23:22 emdat_20260326_232218.xlsx
+(.venv) $ git     exit
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31mdocs/step2_extraction.md[m
-	[31mlogs/step2_extraction.log[m
-	[31msrc/extract/emdat_extract.py[m
-	[31msrc/extract/gdacs_extract.py[m
-	[31msrc/extract/worldbank_extract.py[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-(.venv) $ git add .
-(.venv) $ git commit -m 'Extraction foo lders created'
-[main 46ca725] Extraction folders created
- Committer: Dilani Nadeesha Jayasuriya <20093736@mydbs.ie@DBSMOLT.15vnrprwgtrexkhakcsiu5ib3h.parx.internal.cloudapp.net>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 5 files changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 docs/step2_extraction.md
- create mode 100644 logs/step2_extraction.log
- create mode 100644 src/extract/emdat_extract.py
- create mode 100644 src/extract/gdacs_extract.py
- create mode 100644 src/extract/worldbank_extract.py
-(.venv) $ git push
-Username for 'https://github.com': nadeeshaJ
-Password for 'https://nadeeshaJ@github.com': 
-Enumerating objects: 11, done.
-Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
-Delta compression using up to 2 threads
-Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
-Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 730 bytes | 730.00 KiB/s, done.
-Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To https://github.com/nadeeshaJ/20093736--ETL-Disaster-PipelineV2.git
-   381582c..46ca725  main -> main
-(.venv) $ ```bash
-> exit
-> git status
-> ^[[A^[[A^[[B            git status
-> ls
-> ^C
-(.venv) $ ```bash
-> exit
-> ^C
-(.venv) $ exit
-
-Script done on 2026-03-26 08:22:26+00:00 [COMMAND_EXIT_CODE="130"]
+Script done on 2026-03-26 23:23:31+00:00 [COMMAND_EXIT_CODE="0"]
