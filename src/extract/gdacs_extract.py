@@ -54,15 +54,14 @@ def get_gdcs():
     os.makedirs("data/raw/gdacs", exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # save files names with time
-    file_name = f"data/raw/gdacs/gdacs_{timestamp}.csv"
-    
-    
-    df.to_csv(file_name, index=False) # csv file
-    print("GDACS Data: ", file_name)
-   
+    output_path  = f"data/raw/gdacs/gdacs_{timestamp}.csv"
+    df.to_csv(output_path , index=False) # csv file
+
+    print("GDACS Data Saved: ", output_path)
+    return df, output_path
 
 
 
 # default function
-if __name__ == "__main__":
-    get_gdcs()
+# if __name__ == "__main__":
+#     get_gdcs()

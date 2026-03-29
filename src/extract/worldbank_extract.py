@@ -37,8 +37,8 @@ def get_worldbank_data(indicator_code):
             )
 
     # shape into pandas dataframe
-    return  pd.DataFrame(rows)
-
+    df = pd.DataFrame(rows)
+    return df
 
 # data extraction
 def worldbank_extraction():
@@ -57,9 +57,10 @@ def worldbank_extraction():
         df = get_worldbank_data(code)
         file_path = save_folder / f"{name}_{get_timestamp()}.csv" # csv file
         df.to_csv(file_path, index=False)
+        
         print("Saved:", file_path)
         print("Shape:", df.shape)
 
 # default function
-if __name__ == "__main__":
-    worldbank_extraction()
+# if __name__ == "__main__":
+#     worldbank_extraction()

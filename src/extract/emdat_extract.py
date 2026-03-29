@@ -37,18 +37,18 @@ def downlod_emdat() :
     os.makedirs("data/raw/emdat", exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") # save files names with time
-    file_name = f"data/raw/emdat/emdat_{timestamp}.xlsx"
+    output_path  = f"data/raw/emdat/emdat_{timestamp}.xlsx"
 
     file_data = requests.get(file_url, timeout=120)
     file_data.raise_for_status()
     
-    with open(file_name , "wb") as f:
+    with open(output_path  , "wb") as f:
         f.write(file_data.content)
-    print("EM-DAT downloaded: ", file_name)
+    print("EM-DAT downloaded: ", output_path)
     print("Version:", version_label)
-
+    return output_path
 
 # default function
-if __name__ == "__main__":
-    downlod_emdat()
+# if __name__ == "__main__":
+#     downlod_emdat()
 
