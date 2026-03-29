@@ -1,4 +1,4 @@
-from extract.worldbank_extract import worldbank_extraction
+from src.extract.worldbank_extract import worldbank_extraction
 
 print("Starting World Bank update...")
 worldbank_extraction()

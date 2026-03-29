@@ -1,4 +1,4 @@
-from extract.emdat_extract import emdat_extraction
+from src.extract.emdat_extract import emdat_extraction
 
 print("Starting EM-DAT update...")
 emdat_extraction()
