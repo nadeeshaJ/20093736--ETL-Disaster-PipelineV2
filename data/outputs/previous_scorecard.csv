@@ -1,485 +1,245 @@
 country,iso3,disaster_type,alert_level,severity,population,historical_disaster_count,average_deaths,average_affected_population,aid_received_usd,aid_dependency_percent_gni,historical_risk_score,real_time_severity_score,financial_dependency_score,vulnerability_index,estimated_affected_population,estimated_deaths,estimated_required_aid_usd,estimated_impact_level,risk_category,critical_resource_gap,response_recommendation,start_date,end_date
-United States,USA,EQ,Green,0.0,0.0,260.0,43.41538461538462,421991.35,0.0,0.0,42.0,1,0.0,36.8,906337.0,93.0,109690440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-10T12:50:12,2026-04-10T12:50:12
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Kermadec Islands Region,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T12:08:43,2026-04-10T12:08:43
-Indonesia,IDN,EQ,Green,0.0,0.0,156.0,1216.6538461538462,301355.46794871794,0.0,0.0,36.19,1,0.0,34.48,631730.0,2550.0,101307600.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-10T11:08:53,2026-04-10T11:08:53
-"Angola, Democratic Republic of Congo, Republic of Congo, Gabon, Zambia",AGO,DR,Orange,0.0,0.0,33.0,29.181818181818183,275219.9696969697,0.0,0.0,6.39,2,0.0,42.56,782702.0,83.0,94754240.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2025-06-21T00:00:00,2026-04-10T10:17:46
-"Afghanistan, Islamic Republic of Iran, Tajikistan, Turkmenistan",AFG,DR,Green,0.0,0.0,88.0,172.7159090909091,420802.8977272727,0.0,0.0,16.71,1,0.0,26.68,809567.0,332.0,100468040.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2024-10-21T00:00:00,2026-04-10T10:17:44
-"Kenya, Somalia",KEN,DR,Orange,0.0,0.0,48.0,56.375,771004.5416666666,0.0,0.0,10.83,2,0.0,44.33,2230585.0,163.0,269300200.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2025-05-21T00:00:00,2026-04-10T10:17:43
-"Libya, Tunisia",LBY,DR,Green,0.0,0.0,4.0,3306.25,406341.25,0.0,0.0,32.16,1,0.0,32.87,837336.0,6813.0,168610320.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-01-21T00:00:00,2026-04-10T10:17:41
-"Austria, Belarus, Czech Republic, Germany, Denmark, Estonia, Lithuania, Latvia, Poland, Russia, Sweden, Slovakia, Ukraine",AUT,DR,Green,0.0,0.0,30.0,79.7,2165.3,0.0,0.0,5.35,1,0.0,22.14,3948.0,145.0,1923760.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2025-12-21T00:00:00,2026-04-10T10:17:39
-"Mexico, United States",MEX,DR,Green,0.0,0.0,92.0,28.532608695652176,168405.39130434784,0.0,0.0,15.05,1,0.0,26.02,321522.0,54.0,39122640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2025-08-21T00:00:00,2026-04-10T10:17:37
-China,CHN,DR,Green,0.0,0.0,225.0,513.8311111111111,7871884.715555555,0.0,0.0,69.28,1,0.0,47.71,18807614.0,1228.0,2269193680.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2025-10-21T00:00:00,2026-04-10T10:17:33
-Venezuela,VEN,DR,Green,0.0,0.0,30.0,15.5,64962.166666666664,0.0,0.0,5.0,1,0.0,22.0,118247.0,28.0,14469640.0,High,Low,No,High priority monitoring and response,2025-09-21T00:00:00,2026-04-10T10:17:32
-"Argentina, Uruguay",ARG,DR,Orange,0.0,0.0,71.0,7.52112676056338,39389.77464788732,0.0,0.0,11.14,2,0.0,44.46,114092.0,22.0,13911040.0,High,Medium,No,High priority monitoring and response,2025-11-21T00:00:00,2026-04-10T10:17:30
-"Bolivia, Brazil, Peru, Paraguay",BOL,DR,Orange,0.0,0.0,56.0,21.946428571428573,188302.2142857143,0.0,0.0,9.53,2,0.0,43.81,542062.0,63.0,65677440.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2022-09-21T00:00:00,2026-04-10T10:17:28
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-"Kermadec Islands, New Zealand",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T08:17:13,2026-04-10T08:17:13
-Guam,GUM,TC,Red,0.0,0.0,3.0,1.3333333333333333,38481.333333333336,0.0,0.0,0.62,3,0.0,60.25,153925.0,5.0,18521000.0,Moderate,Medium,No,Prepare response resources,2026-04-09T00:00:00,2026-04-10T06:00:00
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T03:22:07,2026-04-10T03:22:07
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-10T02:24:31,2026-04-10T02:24:31
-Islamic Republic of Iran,IRN,EQ,Green,0.0,0.0,63.0,474.3015873015873,310466.5873015873,0.0,0.0,15.18,1,0.0,26.07,593090.0,906.0,80230800.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-10T00:56:13,2026-04-10T00:56:13
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-10T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-10T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-10T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-10T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-10T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-10T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-10T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-10T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-10T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-10T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-10T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-10T00:00:00
-India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.54,1,0.0,42.62,14421459.0,1141.0,1741985080.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-05T00:00:00,2026-04-10T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-10T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-08T00:00:00,2026-04-10T00:00:00
-Russian Federation,RUS,WF,Green,0.0,0.0,81.0,719.9629629629629,32989.30864197531,0.0,0.0,19.12,1,0.0,27.65,64171.0,1400.0,21700520.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-08T00:00:00,2026-04-10T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-09T00:00:00,2026-04-10T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-09T00:00:00,2026-04-10T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-10T00:00:00
-"Solomon Islands, Papua New Guinea",PNG,TC,Green,0.0,0.0,45.0,29.622222222222224,84681.2,0.0,0.0,7.51,1,0.0,23.01,156022.0,55.0,19272640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-10T00:00:00
-Peru,PER,EQ,Green,0.0,0.0,79.0,52.77215189873418,149356.74683544305,0.0,0.0,13.2,1,0.0,25.28,282705.0,100.0,34924600.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-09T23:57:48,2026-04-09T23:57:48
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T23:26:35,2026-04-09T23:26:35
-China,CHN,EQ,Green,0.0,0.0,225.0,513.8311111111111,7871884.715555555,0.0,0.0,69.28,1,0.0,47.71,18807614.0,1228.0,2269193680.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-09T22:25:20,2026-04-09T22:25:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-South Shetland Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T21:59:20,2026-04-09T21:59:20
-Fiji,FJI,EQ,Green,0.0,0.0,22.0,7.0,68426.18181818182,0.0,0.0,3.71,1,0.0,21.48,123768.0,13.0,14982160.0,High,Low,No,High priority monitoring and response,2026-04-09T20:42:40,2026-04-09T20:42:40
-Papua New Guinea,PNG,EQ,Green,0.0,0.0,45.0,29.622222222222224,84681.2,0.0,0.0,7.51,1,0.0,23.01,156022.0,55.0,19272640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-09T20:20:02,2026-04-09T20:20:02
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-"Southeast Of Honshu, Japan",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T18:54:24,2026-04-09T18:54:24
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-North Pacific Ocean,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:49:55,2026-04-09T15:49:55
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-South Of Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T15:25:13,2026-04-09T15:25:13
-Philippines,PHL,EQ,Green,0.0,0.0,130.0,198.54615384615386,1902892.9846153846,0.0,0.0,29.05,1,0.0,31.62,3868843.0,404.0,468301160.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-09T15:07:31,2026-04-09T15:07:31
-Indonesia,IDN,EQ,Green,0.0,0.0,156.0,1216.6538461538462,301355.46794871794,0.0,0.0,36.19,1,0.0,34.48,631730.0,2550.0,101307600.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-09T07:32:21,2026-04-09T07:32:21
-Fiji,FJI,TC,Green,0.0,0.0,22.0,7.0,68426.18181818182,0.0,0.0,3.71,1,0.0,21.48,123768.0,13.0,14982160.0,High,Low,No,High priority monitoring and response,2026-04-05T00:00:00,2026-04-09T06:00:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-"E. Caroline Islands, Micronesia",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T05:35:00,2026-04-09T05:35:00
-Japan,JPN,EQ,Green,0.0,0.0,109.0,219.9724770642202,51883.76146788991,0.0,0.0,18.96,1,0.0,27.59,100852.0,428.0,16382240.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-09T01:34:25,2026-04-09T01:34:25
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-South Of Fiji Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-09T00:16:01,2026-04-09T00:16:01
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-07T00:00:00,2026-04-09T00:00:00
-India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.54,1,0.0,42.62,14421459.0,1141.0,1741985080.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-09T00:00:00
-United States,USA,WF,Green,0.0,0.0,260.0,43.41538461538462,421991.35,0.0,0.0,42.0,1,0.0,36.8,906337.0,93.0,109690440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-05T00:00:00,2026-04-09T00:00:00
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Reykjanes Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T23:23:04,2026-04-08T23:23:04
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-Northern Molucca Sea,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T19:14:44,2026-04-08T19:14:44
-United States,USA,EQ,Green,0.0,0.0,260.0,43.41538461538462,421991.35,0.0,0.0,42.0,1,0.0,36.8,906337.0,93.0,109690440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-08T18:10:41,2026-04-08T18:10:41
-Indonesia,IDN,EQ,Green,0.0,0.0,156.0,1216.6538461538462,301355.46794871794,0.0,0.0,36.19,1,0.0,34.48,631730.0,2550.0,101307600.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-08T16:17:46,2026-04-08T16:17:46
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Western Indian-Antarctic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T15:14:03,2026-04-08T15:14:03
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Northern Mid-Atlantic Ridge,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T14:55:59,2026-04-08T14:55:59
-Greece,GRC,EQ,Green,0.0,0.0,48.0,286.7083333333333,4452.75,0.0,0.0,10.0,1,0.0,24.0,8302.0,535.0,6346240.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-08T11:34:57,2026-04-08T11:34:57
-Azerbaijan,AZE,EQ,Green,0.0,0.0,8.0,6.25,16536.625,0.0,0.0,1.35,1,0.0,20.54,29566.0,11.0,3657920.0,Moderate,Low,No,Continue routine monitoring,2026-04-08T09:05:36,2026-04-08T09:05:36
-Solomon Is.,SLB,EQ,Green,0.0,0.0,18.0,10.5,18157.444444444445,0.0,0.0,2.93,1,0.0,21.17,32718.0,19.0,4116160.0,Moderate,Low,No,Continue routine monitoring,2026-04-08T08:33:16,2026-04-08T08:33:16
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-"Bonin Islands, Japan Region",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1776.0,9.0,303120.0,Low,Low,No,Continue routine monitoring,2026-04-08T06:48:47,2026-04-08T06:48:47
-Brazil,BRA,FL,Green,0.0,0.0,79.0,52.0253164556962,715913.9367088608,0.0,0.0,15.35,1,0.0,26.14,1368733.0,99.0,165237960.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-02-03T01:00:00,2026-04-08T01:00:00
-New Caledonia,NCL,EQ,Green,0.0,0.0,2.0,1.0,550.0,0.0,0.0,0.32,1,0.0,20.13,978.0,2.0,137360.0,Low,Low,No,Continue routine monitoring,2026-04-08T00:11:27,2026-04-08T00:11:27
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-25T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-26T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-08T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-06T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-08T00:00:00
-"Thailand, Laos",THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-08T00:00:00
-Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,35.16,1,0.0,34.06,444872.0,6166.0,115044640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-26T00:00:00,2026-04-08T00:00:00
-India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.54,1,0.0,42.62,14421459.0,1141.0,1741985080.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-08T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-25T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-08T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-08T00:00:00
-"Thailand, Myanmar",THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-08T00:00:00
-"Thailand, Myanmar",THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-08T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-03-30T00:00:00,2026-04-08T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-01T00:00:00,2026-04-08T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-04T00:00:00,2026-04-08T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-04-05T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-26T00:00:00,2026-04-08T00:00:00
-Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,35.16,1,0.0,34.06,444872.0,6166.0,115044640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-08T00:00:00
-Australia,AUS,WF,Green,0.0,0.0,88.0,10.420454545454545,9001.113636363636,0.0,0.0,13.67,1,0.0,25.47,17075.0,20.0,2249000.0,Moderate,Low,No,Continue routine monitoring,2026-03-30T00:00:00,2026-04-08T00:00:00
-Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,35.16,1,0.0,34.06,444872.0,6166.0,115044640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-26T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-08T00:00:00
-Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-24T00:00:00,2026-04-08T00:00:00
-Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,35.16,1,0.0,34.06,444872.0,6166.0,115044640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-08T00:00:00
-Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.71,1,0.0,27.08,2145412.0,282.0,260269440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-26T00:00:00,2026-04-08T00:00:00
-"Laos, Viet Nam",LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.9,1,0.0,21.96,303349.0,22.0,36621880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-08T00:00:00
+Colombia,COL,EQ,Green,0.0,0.0,78.0,46.205128205128204,175507.10256410256,0.0,0.0,13.09,1,0.0,25.24,331930.0,87.0,40701600.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-12T21:00:37,2026-04-12T21:00:37
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+"Andreanof Islands, Aleutian Is.",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T20:41:17,2026-04-12T20:41:17
+United States,USA,EQ,Green,0.0,0.0,261.0,43.2911877394636,420374.6781609195,0.0,0.0,42.04,1,0.0,36.82,902656.0,93.0,109248720.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-12T20:14:10,2026-04-12T20:14:10
+Solomon Is.,SLB,EQ,Green,0.0,0.0,18.0,10.5,18157.444444444445,0.0,0.0,2.93,1,0.0,21.17,32709.0,19.0,4115080.0,Moderate,Low,No,Continue routine monitoring,2026-04-12T20:06:58,2026-04-12T20:06:58
+Russia,RUS,EQ,Green,0.0,0.0,81.0,719.9629629629629,32989.30864197531,0.0,0.0,19.85,1,0.0,27.94,64363.0,1405.0,21773560.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-12T20:05:06,2026-04-12T20:05:06
+Northern Mariana Is.,MNP,EQ,Green,0.0,0.0,5.0,1.0,172.0,0.0,0.0,0.78,1,0.0,20.31,307.0,2.0,56840.0,Low,Low,No,Continue routine monitoring,2026-04-12T19:43:51,2026-04-12T19:43:51
+Azerbaijan,AZE,EQ,Green,0.0,0.0,8.0,6.25,16536.625,0.0,0.0,1.35,1,0.0,20.54,29558.0,11.0,3656960.0,Moderate,Low,No,Continue routine monitoring,2026-04-12T18:46:00,2026-04-12T18:46:00
+Northern Mariana Islands,MNP,TC,Red,0.0,0.0,5.0,1.0,172.0,0.0,0.0,0.78,3,0.0,60.31,688.0,4.0,122560.0,Low,Medium,No,Prepare response resources,2026-04-09T00:00:00,2026-04-12T18:00:00
+Fiji,FJI,EQ,Green,0.0,0.0,22.0,7.0,68426.18181818182,0.0,0.0,3.7,1,0.0,21.48,123731.0,13.0,14977720.0,High,Low,No,High priority monitoring and response,2026-04-12T15:33:02,2026-04-12T15:33:02
+Japan,JPN,EQ,Green,0.0,0.0,109.0,219.9724770642202,51883.76146788991,0.0,0.0,19.14,1,0.0,27.65,100899.0,428.0,16387880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-12T13:00:43,2026-04-12T13:00:43
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+South Of Panama,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T11:50:18,2026-04-12T11:50:18
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Off W Coast Of Northern Sumatera,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T02:40:36,2026-04-12T02:40:36
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Mariana Islands,UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-12T01:09:42,2026-04-12T01:09:42
+Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,38.32,1,0.0,35.33,450672.0,6246.0,116540640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-31T00:00:00,2026-04-12T00:00:00
+India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-05T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-05T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-09T00:00:00,2026-04-12T00:00:00
+Russian Federation,RUS,WF,Green,0.0,0.0,81.0,719.9629629629629,32989.30864197531,0.0,0.0,19.85,1,0.0,27.94,64363.0,1405.0,21773560.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-11T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-12T00:00:00
+"Laos, Thailand",LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-08T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-10T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-08T00:00:00,2026-04-12T00:00:00
+India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-06T00:00:00,2026-04-12T00:00:00
+India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-06T00:00:00,2026-04-12T00:00:00
+India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-12T00:00:00
+Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,38.32,1,0.0,35.33,450672.0,6246.0,116540640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-31T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-05T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-06T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-09T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-12T00:00:00
+Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,38.32,1,0.0,35.33,450672.0,6246.0,116540640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-31T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-31T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-31T00:00:00,2026-04-12T00:00:00
+"Thailand, Myanmar",THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-02T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-03T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-04T00:00:00,2026-04-12T00:00:00
+India,IND,WF,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-05T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-07T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-08T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-09T00:00:00,2026-04-12T00:00:00
+Australia,AUS,WF,Green,0.0,0.0,89.0,10.325842696629213,8902.191011235955,0.0,0.0,13.78,1,0.0,25.51,16890.0,20.0,2226800.0,Moderate,Low,No,Continue routine monitoring,2026-04-09T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-12T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-29T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-12T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-12T00:00:00
+"Laos, Viet Nam",LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-28T00:00:00,2026-04-12T00:00:00
+India,IND,EQ,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-11T22:52:27,2026-04-11T22:52:27
+China,CHN,EQ,Green,0.0,0.0,225.0,513.8311111111111,7871884.715555555,0.0,0.0,69.7,1,0.0,47.88,18828419.0,1229.0,2271700280.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-11T21:21:50,2026-04-11T21:21:50
+Türkiye,TUR,EQ,Green,0.0,0.0,65.0,842.5230769230769,271024.76923076925,0.0,0.0,19.55,1,0.0,27.82,528058.0,1642.0,79786960.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-11T14:31:56,2026-04-11T14:31:56
+Peru,PER,EQ,Green,0.0,0.0,79.0,52.77215189873418,149356.74683544305,0.0,0.0,13.21,1,0.0,25.28,282632.0,100.0,34915840.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-11T13:44:11,2026-04-11T13:44:11
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T10:08:09,2026-04-11T10:08:09
+Japan,JPN,EQ,Green,0.0,0.0,109.0,219.9724770642202,51883.76146788991,0.0,0.0,19.14,1,0.0,27.65,100899.0,428.0,16387880.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-11T09:49:51,2026-04-11T09:49:51
+Islamic Republic of Iran,IRN,EQ,Green,0.0,0.0,63.0,474.3015873015873,310466.5873015873,0.0,0.0,15.65,1,0.0,26.26,594210.0,908.0,80385200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-11T08:41:34,2026-04-11T08:41:34
+China,CHN,EQ,Green,0.0,0.0,225.0,513.8311111111111,7871884.715555555,0.0,0.0,69.7,1,0.0,47.88,18828419.0,1229.0,2271700280.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-11T04:38:04,2026-04-11T04:38:04
+India,IND,EQ,Green,0.0,0.0,181.0,501.3425414364641,6335088.651933702,0.0,0.0,56.97,1,0.0,42.79,14439642.0,1143.0,1744187040.0,Severe,Medium,No,Urgent humanitarian mobilization recommended,2026-04-11T03:15:24,2026-04-11T03:15:24
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+"Fox Islands, Aleutian Islands",UNK,EQ,Green,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,0.0,20.0,1775.0,9.0,303000.0,Low,Low,No,Continue routine monitoring,2026-04-11T00:39:53,2026-04-11T00:39:53
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-11T00:00:00
+Mongolia,MNG,WF,Green,0.0,0.0,30.0,7.0,188173.26666666666,0.0,0.0,5.39,1,0.0,22.15,343062.0,13.0,41297440.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-10T00:00:00,2026-04-11T00:00:00
+Myanmar,MMR,WF,Green,0.0,0.0,49.0,2954.1632653061224,213147.20408163266,0.0,0.0,38.32,1,0.0,35.33,450672.0,6246.0,116540640.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-11T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-27T00:00:00,2026-04-11T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-11T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-30T00:00:00,2026-04-11T00:00:00
+Thailand,THA,WF,Green,0.0,0.0,79.0,146.1139240506329,1110046.6962025317,0.0,0.0,17.82,1,0.0,27.13,2145814.0,282.0,260317680.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-03-31T00:00:00,2026-04-11T00:00:00
+Laos,LAO,WF,Green,0.0,0.0,27.0,11.925925925925926,166739.2962962963,0.0,0.0,4.89,1,0.0,21.96,303260.0,22.0,36611200.0,Severe,Low,No,Urgent humanitarian mobilization recommended,2026-04-01T00:00:00,2026-04-11T00:00:00

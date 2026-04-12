@@ -1,7 +1,7 @@
 import argparse
 import logging
 import sys
-from src.load.versioning import rotate_files
+from src.load.versioning import rotate_files, save_new_files
 from src.extract.emdat_extract import emdat_extraction
 from src.extract.worldbank_extract import worldbank_extraction
 from src.load.database import SupabaseLoader
