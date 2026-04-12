@@ -1,5 +1,5 @@
 
-from src.build_scorecard import build_historical_validation
+from transform.build_scorecard import build_historical_validation
 
 
 print("Starting historical validation build")

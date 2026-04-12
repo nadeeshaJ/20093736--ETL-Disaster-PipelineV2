@@ -1,6 +1,6 @@
 from src.extract.gdacs_extract import gdcs_extraction
-from src.versioning import rotate_files, save_new_files
-from src.build_scorecard import build_scorecard
+from load.versioning import rotate_files, save_new_files
+from transform.build_scorecard import build_scorecard
 
 
 print("Starting GDACS pipeline...")
