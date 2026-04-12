@@ -1,8 +1,5 @@
 import unittest
-
 from src.load.database import SupabaseLoader
-
-
 
 
 class TestDatabaseConnection(unittest.TestCase):
