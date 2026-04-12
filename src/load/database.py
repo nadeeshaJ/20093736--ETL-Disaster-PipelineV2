@@ -54,16 +54,12 @@ class SupabaseLoader:
            
             raise
 
-    def test_connection(self):
-       
+    def check_health(self):
+        # to ensure DB is active before starting the ETL
         try:
-            self.client.table("latest_scorecards").select("*", count="exact").limit(1).execute()
-            logging.info("Supabase connection successful! Table 'latest_scorecards' found.")
-            print("Supabase connection successful!")
+            self.client.table("latest_scorecards").select("id").limit(1).execute()
             return True
-        except Exception as e:
-            logging.error(f"Connection failed: {e}")
-            print(f"Connection failed: {e}")
+        except Exception:
             return False
 
 if __name__ == "__main__":

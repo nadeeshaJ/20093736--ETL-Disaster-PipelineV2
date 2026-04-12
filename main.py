@@ -6,7 +6,7 @@ from src.extract.emdat_extract import emdat_extraction
 from src.extract.worldbank_extract import worldbank_extraction
 from src.load.database import SupabaseLoader
 from src.extract.gdacs_extract import gdcs_extraction
-from src.transform.build_scorecard import build_scorecard
+from src.transform.build_scorecard import build_historical_validation, build_scorecard
 
 
 # log functions
@@ -48,6 +48,10 @@ def main():
         worldbank_extraction() 
     elif args.task == 'emdat':
         emdat_extraction() 
+    elif args.task == 'historical':
+        historical_df = build_historical_validation() 
+        historical_df.to_csv("data/outputs/historical_validation.csv", index=False)
+        # ToDO : DB layer
 
 if __name__ == "__main__":
     main()
