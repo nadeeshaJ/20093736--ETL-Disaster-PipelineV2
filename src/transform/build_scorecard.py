@@ -2,6 +2,7 @@ import glob
 import os
 import pandas as pd
 import numpy as np
+from datetime import datetime, timezone
 
 # intelligence layer fuctions
 def generate_recommendation(row):
@@ -185,6 +186,9 @@ def build_scorecard():
     str_cols = scorecard.select_dtypes(include=['object']).columns
     scorecard[str_cols] = scorecard[str_cols].fillna('Unknown')
 
+    # last updated time
+    scorecard["processed_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+
     return scorecard
 
 def build_historical_validation():
@@ -217,11 +221,12 @@ def build_historical_validation():
         df.groupby(["iso3", "year"]).cumcount().astype(str)
     )
     
+    # last updated time
+    df["processed_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     # cleanup for historical data
-    
     db_columns = [
         "country", "iso3", "year", "total_deaths", "estimated_deaths", 
-        "aid_received_usd", "historical_disaster_count", "mae_deaths", "validation_key"
+        "aid_received_usd", "historical_disaster_count", "mae_deaths", "validation_key", "processed_at"
     ]
     
     
