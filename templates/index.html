@@ -5,10 +5,10 @@
     <title>Humanitarian Command Center | Project 20093736</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, sans-serif; }
-        .executive-header { background: linear-gradient(135deg, #ffffff 0%, #f1f2f6 100%); padding: 40px; border-radius: 15px; border-bottom: 3px solid #dee2e6; margin-bottom: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        body { background-color: #f4f7f6; font-family: 'Segoe UI', sans-serif; }
+        .executive-header { background: linear-gradient(135deg, #ffffff 0%, #f1f2f6 100%); padding: 40px; border-radius: 15px; border-bottom: 2px solid #dee2e6; margin-bottom: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         .kpi-box { text-align: center; padding: 15px; border-radius: 10px; background: white; border: 1px solid #dee2e6; min-width: 160px; }
-        .alert-card { background: white; border-radius: 12px; border-left: 6px solid #e74c3c; padding: 20px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
+        .alert-card { background: white; border-radius: 12px; border-left: 8px solid #e74c3c; padding: 25px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
         .chart-box { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); margin-bottom: 30px; }
         .chart-desc { color: #888; font-style: italic; font-size: 0.85em; text-align: center; margin-top: 10px; }
     </style>
@@ -18,56 +18,61 @@
     
     <div class="executive-header text-center">
         <h1 class="fw-bold" style="color: #1e3c72; letter-spacing: 1px;">HUMANITARIAN COMMAND CENTER</h1>
-        <p class="text-muted">Strategic Intelligence | Project 20093736 | <b>Pipeline Sync: {{ kpis.refreshed }} UTC</b></p>
+        <p class="text-muted">Strategic Intelligence Pipeline | Project Ref: 20093736 | <b>Pipeline Sync: {{ kpis.refreshed }} UTC</b></p>
         <div class="d-flex justify-content-around mt-4">
-            <div class="kpi-box"><h3>{{ kpis.total }}</h3><small class="fw-bold text-secondary">GLOBAL EPISODES</small></div>
+            <div class="kpi-box"><h3>{{ kpis.total }}</h3><small class="fw-bold text-secondary">GLOBAL EVENTS</small></div>
             <div class="kpi-box"><h3>{{ kpis.high_risk }}</h3><small class="fw-bold text-danger">HIGH RISK</small></div>
             <div class="kpi-box"><h3>${{ "{:.2f}".format(kpis.gap_b) }}B</h3><small class="fw-bold text-success">FUNDING DEFICIT</small></div>
         </div>
     </div>
 
-    <h4 class="text-danger fw-bold mb-4">🚨 PRIORITY TRIAGE ALERTS (LAST 24H)</h4>
+    <h4 class="text-danger fw-bold mb-4">🚨 PRIORITY TRIAGE ALERTS (LAST 24 HOURS)</h4>
     {% for alert in alerts %}
     <div class="alert-card">
         <div class="d-flex justify-content-between align-items-center mb-3">
-            <h5 class="fw-bold mb-0 text-dark">{{ alert.country }} | {{ alert.disaster_type }}</h5>
-            <span class="badge bg-danger">{{ alert.alert_level.upper() }} ALERT</span>
+            <h4 class="fw-bold mb-0 text-dark">{{ alert.country }} | {{ alert.disaster_type }}</h4>
+            <span class="badge {% if alert.triage_score > 70 %}bg-danger{% elif alert.triage_score > 40 %}bg-warning{% else %}bg-success{% endif %}">
+                {{ alert.alert_level.upper() if alert.alert_level else 'ACTIVE' }}
+            </span>
         </div>
-        <div class="row text-muted small">
+        <div class="row text-muted">
             <div class="col-md-3">📊 <b>Triage Score:</b> {{ alert.triage_score }}</div>
-            <div class="col-md-3">💰 <b>Aid Gap:</b> ${{ "{:,.0f}".format(alert.estimated_required_aid_usd) }}</div>
-            <div class="col-3">📉 <b>Deaths:</b> {{ alert.estimated_deaths|int }}</div>
-            <div class="col-3">📜 <b>History:</b> {{ alert.historical_disaster_count|int }} events</div>
+            <div class="col-md-3">💰 <b>Aid Needed:</b> ${{ "{:,.0f}".format(alert.estimated_required_aid_usd) }}</div>
+            <div class="col-md-3">📉 <b>Est. Deaths:</b> {{ alert.estimated_deaths|int }}</div>
+            <div class="col-md-3">📜 <b>History:</b> {{ alert.historical_disaster_count|int }} events in country</div>
         </div>
-        <div class="mt-3 pt-2 border-top text-success fw-bold">Actionable Rec: <span class="text-dark fw-normal">{{ alert.response_recommendation }}</span></div>
+        <div class="mt-3 pt-2 border-top">
+            <strong class="text-success">Actionable Rec:</strong> 
+            <span class="text-dark">{{ alert.response_recommendation }}</span>
+        </div>
     </div>
     {% endfor %}
 
     <div class="chart-box">
         {{ map_p|safe }}
-        <p class="chart-desc">Strategic geospatial monitor identifying vulnerability hotspots via operational marker intensity.</p>
+        <p class="chart-desc">Strategic geospatial monitor identifying vulnerability hotspots via satellite imagery.</p>
     </div>
 
     <div class="row">
-        <div class="col-md-6"><div class="chart-box"><h5>Hazard Intensity Matrix</h5>{{ heat_p|safe }}<p class="chart-desc">Analysis of hazard density across varied geographies.</p></div></div>
-        <div class="col-md-6"><div class="chart-box"><h5>Fragility Quadrants</h5>{{ res_p|safe }}<p class="chart-desc">Mapping threat risk against coping infrastructure capacity.</p></div></div>
+        <div class="col-md-6"><div class="chart-box"><h5>Hazard Intensity Matrix</h5>{{ heat_p|safe }}</div></div>
+        <div class="col-md-6"><div class="chart-box"><h5>Fragility Quadrants</h5>{{ res_p|safe }}</div></div>
     </div>
 
     <div class="chart-box">
-        <h5>Scientific Accuracy (Model Sync: {{ kpis.hist_refreshed }})</h5>
+        <h5>Scientific Accuracy (Log-Scale)</h5>
         {{ acc_p|safe }}
-        <p class="chart-desc">Validation benchmarking system predictions against EM-DAT ground-truth deaths.</p>
+        <p class="chart-desc">Validation benchmarking system predictions against EM-DAT ground-truth. <b>Model Sync: {{ kpis.hist_refreshed }} UTC</b>.</p>
     </div>
 
     <div class="row">
         <div class="col-md-7"><div class="chart-box"><h5>Strategic Risk Leaderboard</h5>{{ leader_html|safe }}</div></div>
-        <div class="col-md-5"><div class="chart-box"><h5>Top 5 Unmet Deficits</h5>{{ gap_p|safe }}<p class="chart-desc">Identification of critical resource funding gaps (Millions USD).</p></div></div>
+        <div class="col-md-5"><div class="chart-box"><h5>Top 5 Unmet Deficits</h5>{{ gap_p|safe }}</div></div>
     </div>
 
     <div class="chart-box">
         <h5>Historical Resource Equity</h5>
         {{ eq_p|safe }}
-        <p class="chart-desc">Benchmarking aid distribution equity against global averages (Red = Global Mean).</p>
+        <p class="chart-desc">Benchmarking aid distribution equity (Red Line = Global Average).</p>
     </div>
 
 </div>
