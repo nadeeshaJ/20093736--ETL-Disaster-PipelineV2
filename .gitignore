@@ -8,6 +8,11 @@ data/raw/*.xlsx
 data/raw/*.json
 data/processed/*.csv
 
+data/outputs/*.csv
+data/outputs/*.xlsx
+data/raw/gdacs/*.csv
+*.log
+
 
 
 
