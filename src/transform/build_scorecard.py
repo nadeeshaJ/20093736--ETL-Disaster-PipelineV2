@@ -129,6 +129,13 @@ def build_scorecard():
                                        labels=["Routine", "Heightened", "Urgent", "Emergency"])
 
     
+    # event_id is unique and clean for database push
+    
+    scorecard = scorecard.dropna(subset=['event_id'])
+    scorecard['event_id'] = scorecard['event_id'].astype(int)
+    # keep the last entry for each event_id to ensure a single unique batch
+    scorecard = scorecard.drop_duplicates(subset=['event_id'], keep='last')
+
     # fill numeric NaNs with 0 to prevent JSON errors
     num_cols = scorecard.select_dtypes(include=[np.number]).columns
     scorecard[num_cols] = scorecard[num_cols].fillna(0)
