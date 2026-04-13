@@ -50,11 +50,13 @@ def index():
     live_df, hist_df, kpis = fetch_and_process()
     if live_df is None: return "Database Sync Required."
 
-    # 1. MAP (Open Style for Visibility)
+    # 1. MAP (Open Style with Professional Markers)
     map_df = live_df[live_df['latitude'] != 0].copy()
     fig_map = px.scatter_mapbox(map_df, lat="latitude", lon="longitude", color="disaster_type",
-                                size="vulnerability_index", hover_name="country", mapbox_style="open-street-map",
-                                size_max=25, zoom=1.1, height=600)
+                                size="vulnerability_index", hover_name="country", 
+                                mapbox_style="open-street-map",
+                                size_max=20, zoom=1.1, height=600,
+                                color_discrete_sequence=px.colors.qualitative.Dark24)
     fig_map.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 
     # 2. HEATMAP
@@ -74,16 +76,26 @@ def index():
     top_gap = live_df.groupby("country")["funding_gap_usd"].sum().sort_values(ascending=False).head(5).reset_index()
     fig_gap = px.bar(top_gap, x="funding_gap_usd", y="country", orientation='h', color="funding_gap_usd", color_continuous_scale="Reds")
 
-    # 6. RESOURCE EQUITY
-    hist_df["aid_per"] = (pd.to_numeric(hist_df["aid_received_usd"]) / pd.to_numeric(hist_df['disaster_count'])).fillna(0)
-    aid_avg = hist_df.groupby("country")["aid_per"].mean().sort_values(ascending=False).head(10).reset_index()
-    fig_eq = px.bar(aid_avg, x="aid_per", y="country", orientation='h', color_continuous_scale="Blues")
-    fig_eq.add_vline(x=hist_df["aid_per"].mean(), line_dash="dash", line_color="red")
+    # 6. RESOURCE EQUITY (FIXED KEYERROR)
+    if not hist_df.empty:
+        # Safety Logic: Check which column name exists in the DB
+        d_col = 'historical_disaster_count' if 'historical_disaster_count' in hist_df.columns else 'disaster_count'
+        if d_col in hist_df.columns:
+            hist_df["aid_per"] = (pd.to_numeric(hist_df["aid_received_usd"]) / pd.to_numeric(hist_df[d_col])).fillna(0)
+        else:
+            hist_df["aid_per"] = 0
+            
+        aid_avg = hist_df.groupby("country")["aid_per"].mean().sort_values(ascending=False).head(10).reset_index()
+        fig_eq = px.bar(aid_avg, x="aid_per", y="country", orientation='h', color_continuous_scale="Blues")
+        fig_eq.add_vline(x=hist_df["aid_per"].mean(), line_dash="dash", line_color="red")
+    else:
+        fig_eq = px.bar(title="Waiting for historical data...")
 
     # 7. LEADERBOARD TABLE
     leaderboard = live_df.groupby(["country", "iso3"], as_index=False).agg(risk=("vulnerability_index", "mean")).sort_values("risk", ascending=False).head(10)
-    leader_html = leaderboard.to_html(classes="table table-hover", index=False)
+    leader_html = leaderboard.to_html(classes="table table-hover table-bordered", index=False)
 
+    # Filtering alerts for card display
     alerts = live_df[pd.to_datetime(live_df["start_date"], utc=True) >= (pd.Timestamp.now(tz='UTC') - pd.Timedelta(hours=24))].to_dict('records')
 
     return render_template("index.html", kpis=kpis, alerts=alerts, leader_html=leader_html,
