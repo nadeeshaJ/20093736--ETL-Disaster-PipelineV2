@@ -95,7 +95,7 @@ def build_scorecard():
     scorecard[fill_cols] = scorecard[fill_cols].fillna(0)
     scorecard["electricity_access_pct"] = scorecard["electricity_access_pct"].replace(0, 50)
 
-    # 1. ORIGINAL SCORING (For Colab compatibility)
+    
     scorecard["real_time_severity_score"] = scorecard["alert_level"].apply(map_alert_to_score)
     
     max_d = max(scorecard["historical_disaster_count"].max(), 1)
@@ -128,6 +128,18 @@ def build_scorecard():
     scorecard["urgency_level"] = pd.cut(scorecard["triage_score"], bins=[0, 30, 60, 85, 100], 
                                        labels=["Routine", "Heightened", "Urgent", "Emergency"])
 
+    
+    # fill numeric NaNs with 0 to prevent JSON errors
+    num_cols = scorecard.select_dtypes(include=[np.number]).columns
+    scorecard[num_cols] = scorecard[num_cols].fillna(0)
+
+    # convert categorical to string for JSON compliance
+    scorecard["urgency_level"] = scorecard["urgency_level"].astype(str).replace('nan', 'Routine')
+
+    # handle string NaNs
+    str_cols = scorecard.select_dtypes(include=['object']).columns
+    scorecard[str_cols] = scorecard[str_cols].fillna('Unknown')
+
     return scorecard
 
 def build_historical_validation():
@@ -141,5 +153,8 @@ def build_historical_validation():
    
     df["deaths_error"] = df["estimated_deaths"] - df["total_deaths"]
     df["mae_deaths"] = df["deaths_error"].abs()
+    
+    # final cleanup for historical data
+    df = df.fillna(0)
     
     return df
