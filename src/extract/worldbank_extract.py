@@ -42,24 +42,21 @@ def get_worldbank_data(indicator_code):
 
 # data extraction
 def worldbank_extraction():
-
-    save_folder = Path(("data/raw/worldbank"))
+    save_folder = Path("data/raw/worldbank")
     # create folder if does not exist
     save_folder.mkdir(parents=True, exist_ok=True)
 
     indicators = {
         "DT.ODA.ALLD.CD": "oda_received_usd",
-        "DT.ODA.ODAT.MP.ZS": "aid_dependency_percent_gni"
+        "DT.ODA.ODAT.MP.ZS": "aid_dependency_percent_gni",
+        "EG.ELC.ACCS.ZS": "electricity_access_pct" # reslicance proxy
     }
-    
     
     for code, name in indicators.items():
         df = get_worldbank_data(code)
         file_path = save_folder / f"{name}_{get_timestamp()}.csv" # csv file
         df.to_csv(file_path, index=False)
-        
         print("Saved:", file_path)
-        print("Shape:", df.shape)
 
 # default function
 # if __name__ == "__main__":
