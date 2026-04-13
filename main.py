@@ -35,7 +35,14 @@ def run_realtime_pipeline():
         rotate_files() 
         scorecard_df = build_scorecard() 
 
-        
+        # prevent duplicates
+        try:
+           
+            db.client.table("latest_scorecards").delete().neq("country", "0").execute()
+            logging.info("Successfully cleared old records from latest_scorecards.")
+        except Exception as e:
+            logging.warning(f"Note: Could not clear table (it might already be empty): {e}")
+
         # pipeline sync time
         scorecard_df["processed_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
