@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 import pandas as pd
+import numpy as np
 from supabase import create_client, Client 
 
 # log functions
@@ -39,12 +40,18 @@ class SupabaseLoader:
                 return None
 
             # convert NaNs/NATs to None
-            df_clean = df.where(pd.notnull(df), None)
+           
+            df_clean = df.replace({np.nan: None})
             
             # convert to dictionary records
             data = df_clean.to_dict(orient='records')
             
-            response = self.client.table(table_name).upsert(data).execute()
+           
+            # updates the record if the event_id already exists
+            response = self.client.table(table_name).upsert(
+                data, 
+                on_conflict="event_id"
+            ).execute()
             
             logging.info(f"Successfully processed {len(data)} records in table '{table_name}'.")
             return response
@@ -64,4 +71,8 @@ class SupabaseLoader:
 
 if __name__ == "__main__":
     loader = SupabaseLoader()
-    loader.test_connection()
+    # verify connection health
+    if loader.check_health():
+        logging.info("Supabase connection is healthy.")
+    else:
+        logging.error("Supabase connection failed.")
