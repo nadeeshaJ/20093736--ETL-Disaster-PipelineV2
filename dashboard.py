@@ -50,5 +50,5 @@ def dashboard():
                            emergency_count=emergency_count)
 
 if __name__ == "__main__":
-    # Sticking to your lecturer's configuration for port 8080 and SSL
+    #  for port 8080 and SSL
     app.run(host='0.0.0.0', port=8080, ssl_context=('cert.pem', 'privkey.pem'))
