@@ -2,6 +2,8 @@ import argparse
 import logging
 import sys
 import os
+import pandas as pd 
+from datetime import datetime, timezone
 
 from src.load.versioning import rotate_files, save_new_files
 from src.extract.emdat_extract import emdat_extraction
@@ -23,7 +25,6 @@ def run_realtime_pipeline():
     try:
         db = SupabaseLoader()
         
-        
         if not db.check_health():
             raise Exception("Supabase connection failed")
         
@@ -33,6 +34,16 @@ def run_realtime_pipeline():
         # transformation
         rotate_files() 
         scorecard_df = build_scorecard() 
+
+        
+        # pipeline sync time
+        scorecard_df["processed_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+
+       
+        int_cols = ["year", "historical_disaster_count", "estimated_deaths", "population"]
+        for col in int_cols:
+            if col in scorecard_df.columns:
+                scorecard_df[col] = pd.to_numeric(scorecard_df[col], errors='coerce').fillna(0).astype(int)
         
         # loading to DB and GitHub
         save_new_files(scorecard_df) 
@@ -56,6 +67,14 @@ def run_historical_pipeline():
         logging.info("Building historical validation data...")
         historical_df = build_historical_validation()
         
+        
+        historical_df["processed_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+
+        
+        hist_int_cols = ["year", "total_deaths", "estimated_deaths", "historical_disaster_count"]
+        for col in hist_int_cols:
+            if col in historical_df.columns:
+                historical_df[col] = pd.to_numeric(historical_df[col], errors='coerce').fillna(0).astype(int)
         
         output_path = "data/outputs/historical_validation.csv"
        
