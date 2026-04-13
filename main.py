@@ -2,7 +2,7 @@ import argparse
 import logging
 import sys
 import os
-import pandas as pd
+
 from src.load.versioning import rotate_files, save_new_files
 from src.extract.emdat_extract import emdat_extraction
 from src.extract.worldbank_extract import worldbank_extraction
@@ -22,6 +22,10 @@ def run_realtime_pipeline():
      # real-time alert function loading
     try:
         db = SupabaseLoader()
+        
+        
+        if not db.check_health():
+            raise Exception("Supabase connection failed")
         
        # extraction
         gdcs_extraction() 
@@ -43,6 +47,10 @@ def run_historical_pipeline():
     
     try:
         db = SupabaseLoader()
+        
+       
+        if not db.check_health():
+            raise Exception("Supabase connection failed")
         
         # build historical validation data
         logging.info("Building historical validation data...")

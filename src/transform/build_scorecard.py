@@ -116,7 +116,9 @@ def build_scorecard():
     max_d = max(scorecard["historical_disaster_count"].max(), 1)
     max_m = max(scorecard["average_deaths"].max(), 1)
     scorecard["historical_risk_score"] = ((scorecard["historical_disaster_count"]/max_d)*50 + (scorecard["average_deaths"]/max_m)*50).round(2)
-    scorecard["financial_dependency_score"] = (scorecard["aid_dependency_percent_gni"] / 100 * 100).round(2)
+    
+   
+    scorecard["financial_dependency_score"] = scorecard["aid_dependency_percent_gni"].fillna(0).round(2)
 
     # valunability index
     scorecard["vulnerability_index"] = (
@@ -139,8 +141,9 @@ def build_scorecard():
     scorecard["funding_gap_usd"] = (scorecard["estimated_required_aid_usd"] - scorecard["aid_received_usd"]).clip(lower=0)
     
     # triage score
-    impact_scaled = (scorecard["impact_score"] / 100 * 100).clip(upper=100)
-    gap_scaled = (scorecard["funding_gap_usd"] / 1000000).clip(upper=100)
+   
+    impact_scaled = scorecard["impact_score"].clip(upper=100)
+    gap_scaled = (scorecard["funding_gap_usd"].clip(upper=100000000) / 100000000 * 100)
     
     scorecard["triage_score"] = (
         (scorecard["real_time_severity_score"] / 3 * 35) +
@@ -149,7 +152,8 @@ def build_scorecard():
         (gap_scaled * 0.15)
     ).round(2)
 
-    scorecard["urgency_level"] = pd.cut(scorecard["triage_score"], bins=[0, 30, 60, 85, 105], 
+   
+    scorecard["urgency_level"] = pd.cut(scorecard["triage_score"], bins=[-0.01, 30, 60, 85, 105], 
                                        labels=["Routine", "Heightened", "Urgent", "Emergency"])
 
     
@@ -189,7 +193,8 @@ def build_historical_validation():
     wb_df = load_worldbank()
     df = yearly.merge(wb_df, on=["iso3", "year"], how="left").fillna(0)
     
-    
+   
+    df = df.sort_values(["iso3", "year"])
     df["estimated_deaths"] = (
         df.groupby("iso3")["total_deaths"]
         .transform(lambda s: s.expanding().mean().shift())
