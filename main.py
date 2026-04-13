@@ -56,9 +56,8 @@ def run_historical_pipeline():
         historical_df.to_csv(output_path, index=False)
         logging.info(f"Historical data saved locally to {output_path}")
         
-        # database Loading
-        
-        db.upload_dataframe(historical_df, "historical_validation", on_conflict="id")
+        # database Loading 
+        db.upload_dataframe(historical_df, "historical_validation", on_conflict="validation_key")
         
         logging.info("Historical validation pipeline executed successfully.")
 

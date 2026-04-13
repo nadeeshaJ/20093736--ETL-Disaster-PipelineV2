@@ -3,6 +3,19 @@ import os
 import pandas as pd
 import numpy as np
 
+# intelligence layer fuctions
+def generate_recommendation(row):
+    if row['urgency_level'] == 'Emergency':
+        return "Immediate mobilization of search & rescue and emergency medical units."
+    if row['funding_gap_usd'] > 1000000:
+        return "Prioritize financial appeal; significant resource deficit detected."
+    if row['electricity_access_pct'] < 40:
+        return "Focus on logistics and off-grid power; local infrastructure is critical."
+    return "Monitor situation; routine humanitarian support recommended."
+
+def calculate_resource_gap_flag(row):
+    return "CRITICAL" if row['funding_gap_usd'] > 500000 and row['vulnerability_index'] > 60 else "MONITOR"
+
 # file folders
 def get_latest_csv(folder):
     files = glob.glob(folder + "/*.csv")
@@ -83,7 +96,9 @@ def build_scorecard():
     emdat_summary = prepare_emdat_summary(load_emdat())
     wb_df = load_worldbank()
     
-    wb_latest = wb_df[wb_df["year"] == wb_df["year"].max()].copy()
+    # most recent year available for each country to prevent nulls
+    wb_df = wb_df.sort_values(["iso3", "year"])
+    wb_latest = wb_df.groupby("iso3", as_index=False).last()
 
     # merge all 3 sources
     scorecard = gdacs_df.merge(emdat_summary, on="iso3", how="left")
@@ -104,7 +119,12 @@ def build_scorecard():
     scorecard["financial_dependency_score"] = (scorecard["aid_dependency_percent_gni"] / 100 * 100).round(2)
 
     # valunability index
-    scorecard["vulnerability_index"] = (scorecard["historical_risk_score"] * 0.4 + scorecard["real_time_severity_score"] * 20).round(2)
+    scorecard["vulnerability_index"] = (
+        scorecard["historical_risk_score"] * 0.35 +
+        scorecard["real_time_severity_score"] * 20 +
+        scorecard["financial_dependency_score"] * 0.20 +
+        ((100 - scorecard["electricity_access_pct"]) * 0.25)
+    ).round(2)
     scorecard["risk_category"] = scorecard["vulnerability_index"].apply(classify_risk)
 
     # impact estimation
@@ -119,13 +139,17 @@ def build_scorecard():
     scorecard["funding_gap_usd"] = (scorecard["estimated_required_aid_usd"] - scorecard["aid_received_usd"]).clip(lower=0)
     
     # triage score
+    impact_scaled = (scorecard["impact_score"] / 100 * 100).clip(upper=100)
+    gap_scaled = (scorecard["funding_gap_usd"] / 1000000).clip(upper=100)
+    
     scorecard["triage_score"] = (
-        (scorecard["real_time_severity_score"] / 3 * 50) + 
-        (scorecard["financial_dependency_score"] * 0.3) +
-        ((100 - scorecard["electricity_access_pct"]) * 0.2)
+        (scorecard["real_time_severity_score"] / 3 * 35) +
+        (scorecard["vulnerability_index"].clip(upper=100) * 0.25) +
+        (impact_scaled * 0.25) +
+        (gap_scaled * 0.15)
     ).round(2)
 
-    scorecard["urgency_level"] = pd.cut(scorecard["triage_score"], bins=[0, 30, 60, 85, 100], 
+    scorecard["urgency_level"] = pd.cut(scorecard["triage_score"], bins=[0, 30, 60, 85, 105], 
                                        labels=["Routine", "Heightened", "Urgent", "Emergency"])
 
     
@@ -135,6 +159,16 @@ def build_scorecard():
     scorecard['event_id'] = scorecard['event_id'].astype(int)
     # keep the last entry for each event_id to ensure a single unique batch
     scorecard = scorecard.drop_duplicates(subset=['event_id'], keep='last')
+
+    # data qulity flags
+    scorecard["location_match_status"] = np.where(
+        scorecard["iso3"].astype(str).str.upper().isin(["UNKNOWN", "NONE", "NAN", ""]),
+        "Unmatched", "Matched"
+    )
+
+   # recomandations
+    scorecard["response_recommendation"] = scorecard.apply(generate_recommendation, axis=1)
+    scorecard["critical_resource_gap"] = scorecard.apply(calculate_resource_gap_flag, axis=1)
 
     # fill numeric NaNs with 0 to prevent JSON errors
     num_cols = scorecard.select_dtypes(include=[np.number]).columns
@@ -155,7 +189,13 @@ def build_historical_validation():
     wb_df = load_worldbank()
     df = yearly.merge(wb_df, on=["iso3", "year"], how="left").fillna(0)
     
-    df["estimated_deaths"] = (df["total_deaths"].expanding().mean().shift().fillna(5)).round(0)
+    
+    df["estimated_deaths"] = (
+        df.groupby("iso3")["total_deaths"]
+        .transform(lambda s: s.expanding().mean().shift())
+        .fillna(5)
+        .round(0)
+    )
     
    
     df["deaths_error"] = df["estimated_deaths"] - df["total_deaths"]
@@ -164,12 +204,19 @@ def build_historical_validation():
     # calculate historical disaster counts for equity analysis
     counts = df.groupby('iso3').size().reset_index(name='historical_disaster_count')
     df = df.merge(counts, on='iso3', how='left')
+
+    # prevent database duplication
+    df["validation_key"] = (
+        df["iso3"].astype(str) + "_" +
+        df["year"].astype(str) + "_" +
+        df.groupby(["iso3", "year"]).cumcount().astype(str)
+    )
     
     # cleanup for historical data
     
     db_columns = [
         "country", "iso3", "year", "total_deaths", "estimated_deaths", 
-        "aid_received_usd", "historical_disaster_count", "mae_deaths"
+        "aid_received_usd", "historical_disaster_count", "mae_deaths", "validation_key"
     ]
     
     
