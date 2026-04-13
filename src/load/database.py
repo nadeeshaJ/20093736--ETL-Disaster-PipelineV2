@@ -32,25 +32,23 @@ class SupabaseLoader:
         # initialize the client
         self.client: Client = create_client(self.url, self.key)
 
-    def upload_dataframe(self, df: pd.DataFrame, table_name: str):
-        
+    def upload_dataframe(self, df: pd.DataFrame, table_name: str, on_conflict: str = "event_id"):
+       
         try:
             if df.empty:
                 logging.warning(f"DataFrame for {table_name} is empty. Skipping upload.")
                 return None
 
-            # convert NaNs/NATs to None
-           
+             # convert NaNs/NATs to None
             df_clean = df.replace({np.nan: None})
             
             # convert to dictionary records
             data = df_clean.to_dict(orient='records')
             
-           
             # updates the record if the event_id already exists
             response = self.client.table(table_name).upsert(
                 data, 
-                on_conflict="event_id"
+                on_conflict=on_conflict
             ).execute()
             
             logging.info(f"Successfully processed {len(data)} records in table '{table_name}'.")
@@ -58,13 +56,13 @@ class SupabaseLoader:
 
         except Exception as e:
             logging.error(f"Database upload failed for table '{table_name}': {e}")
-           
             raise
 
     def check_health(self):
         # to ensure DB is active before starting the ETL
         try:
-            self.client.table("latest_scorecards").select("id").limit(1).execute()
+            
+            self.client.table("latest_scorecards").select("event_id").limit(1).execute()
             return True
         except Exception:
             return False
