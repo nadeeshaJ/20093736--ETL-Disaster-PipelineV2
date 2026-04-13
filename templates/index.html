@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Humanitarian Command Center | MSc 20093736</title>
+    <title>Command Center | Project 20093736</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, sans-serif; }
-        .header-section { background: linear-gradient(135deg, #ffffff 0%, #f1f2f6 100%); padding: 40px; border-radius: 15px; border-bottom: 3px solid #dee2e6; margin-bottom: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        .kpi-box { text-align: center; padding: 15px; border-radius: 10px; background: white; border: 1px solid #dee2e6; min-width: 160px; }
-        .alert-card-styled { background: white; border-radius: 12px; border-left: 6px solid #e74c3c; padding: 20px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
+        body { background-color: #f4f7f6; font-family: 'Segoe UI', sans-serif; }
+        .executive-header { background: linear-gradient(135deg, #ffffff 0%, #f1f2f6 100%); padding: 40px; border-radius: 15px; border-bottom: 2px solid #dee2e6; margin-bottom: 40px; }
+        .kpi-card { background: white; border-radius: 10px; border: 1px solid #dee2e6; padding: 15px; min-width: 150px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+        .alert-card-custom { background: white; border-radius: 12px; border-left: 6px solid #e74c3c; padding: 20px; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
         .chart-box { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); margin-bottom: 30px; }
-        .desc-text { color: #888; font-style: italic; font-size: 0.85em; text-align: center; margin-top: 10px; }
+        .chart-desc { color: #888; font-style: italic; font-size: 0.85em; text-align: center; margin-top: 10px; }
     </style>
 </head>
 <body>
 <div class="container py-5">
     
-    <div class="header-section text-center">
-        <h1 class="fw-bold" style="color: #1e3c72; letter-spacing: 1px;">HUMANITARIAN COMMAND CENTER</h1>
-        <p class="text-muted">Strategic Intelligence Pipeline | Project Ref: 20093736 | <b>Last Pipeline Sync: {{ kpis.refreshed }} UTC</b></p>
+    <div class="executive-header text-center">
+        <h1 class="fw-bold" style="color: #1e3c72;">HUMANITARIAN COMMAND CENTER</h1>
+        <p class="text-muted">Strategic Intelligence Pipeline | <b>Pipeline Sync: {{ kpis.refreshed }} UTC</b></p>
         <div class="d-flex justify-content-around mt-4">
-            <div class="kpi-box"><h3>{{ kpis.total }}</h3><small class="fw-bold text-secondary">GLOBAL EPISODES</small></div>
-            <div class="kpi-box"><h3>{{ kpis.high_risk }}</h3><small class="fw-bold text-danger">HIGH RISK</small></div>
-            <div class="kpi-box"><h3>${{ "{:.2f}".format(kpis.gap_b) }}B</h3><small class="fw-bold text-success">FUNDING DEFICIT</small></div>
+            <div class="kpi-card"><h3>{{ kpis.total }}</h3><small class="fw-bold text-secondary">GLOBAL EPISODES</small></div>
+            <div class="kpi-card"><h3>{{ kpis.high_risk }}</h3><small class="fw-bold text-danger">HIGH RISK</small></div>
+            <div class="kpi-card"><h3>${{ "{:.2f}".format(kpis.gap_b) }}B</h3><small class="fw-bold text-success">TOTAL GAP</small></div>
         </div>
     </div>
 
     <h4 class="text-danger fw-bold mb-4">🚨 PRIORITY TRIAGE ALERTS (24H WINDOW)</h4>
     {% for alert in alerts %}
-    <div class="alert-card-styled">
-        <div class="d-flex justify-content-between align-items-center">
-            <h5 class="fw-bold mb-0">{{ alert.country }} | {{ alert.disaster_type }}</h5>
+    <div class="alert-card-custom">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="fw-bold mb-0 text-dark">{{ alert.country }} | {{ alert.disaster_type }}</h5>
             <span class="badge bg-danger">{{ alert.alert_level.upper() }} ALERT</span>
         </div>
-        <div class="row mt-3 text-muted small">
+        <div class="row text-muted small">
             <div class="col-md-3">📊 <b>Triage Score:</b> {{ alert.triage_score }}</div>
             <div class="col-md-3">💰 <b>Aid Gap:</b> ${{ "{:,.0f}".format(alert.estimated_required_aid_usd) }}</div>
             <div class="col-3">📉 <b>Deaths:</b> {{ alert.estimated_deaths|int }}</div>
@@ -43,18 +43,21 @@
         </div>
     </div>
     {% endfor %}
-    <p class="desc-text mb-5">Description: Actionable intelligence cards filtering complex scientific scores into prioritized decision points for immediate mobilization.</p>
+    <p class="chart-desc mb-5">Description: Actionable intelligence cards converting complex scientific scores into prioritized decision points.</p>
 
-    <div class="chart-box">{{ map_plot|safe }}<p class="desc-text">Strategic geospatial monitor identifying vulnerability hotspots via high-resolution satellite imagery.</p></div>
+    <div class="chart-box">
+        {{ map_plot|safe }}
+        <p class="chart-desc">Strategic geospatial monitor identifying vulnerability hotspots via satellite-streets imagery.</p>
+    </div>
 
     <div class="row">
-        <div class="col-md-6"><div class="chart-box">{{ heat_plot|safe }}<p class="desc-text">Operational intensity heatmap analysis hazard density by geography.</p></div></div>
-        <div class="col-md-6"><div class="chart-box">{{ res_plot|safe }}<p class="desc-text">Strategic quadrant analysis correlating risk threat with infrastructure capacity.</p></div></div>
+        <div class="col-md-6"><div class="chart-box">{{ heat_plot|safe }}<p class="chart-desc">Operational intensity matrix analyzing hazard density by geography.</p></div></div>
+        <div class="col-md-6"><div class="chart-box">{{ res_plot|safe }}<p class="chart-desc">Quadrant analysis correlating threat risk with coping infrastructure.</p></div></div>
     </div>
 
     <div class="chart-box">
         {{ acc_plot|safe }}
-        <p class="desc-text">Scientific accuracy validation comparing predictions against historical EM-DAT benchmarks. <b>Model Last Validated: {{ kpis.hist_refreshed }} UTC</b>.</p>
+        <p class="chart-desc">Scientific accuracy validation comparing predictions against historical ground-truth. <b>Model Last Validated: {{ kpis.hist_refreshed }} UTC</b>.</p>
     </div>
 
 </div>
