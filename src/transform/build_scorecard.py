@@ -160,8 +160,19 @@ def build_historical_validation():
    
     df["deaths_error"] = df["estimated_deaths"] - df["total_deaths"]
     df["mae_deaths"] = df["deaths_error"].abs()
+
+    # calculate historical disaster counts for equity analysis
+    counts = df.groupby('iso3').size().reset_index(name='historical_disaster_count')
+    df = df.merge(counts, on='iso3', how='left')
     
-    # final cleanup for historical data
-    df = df.fillna(0)
+    # cleanup for historical data
+    
+    db_columns = [
+        "country", "iso3", "year", "total_deaths", "estimated_deaths", 
+        "aid_received_usd", "historical_disaster_count", "mae_deaths"
+    ]
+    
+    
+    df = df[db_columns].fillna(0)
     
     return df
