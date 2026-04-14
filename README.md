@@ -64,7 +64,7 @@ The pipeline is fully automated and hosted on cloud infrastructure to ensure con
   - **Monthly**: Refreshes World Bank economic indicators and EM-DAT historical records
 
 This setup ensures that the dashboard always reflects the latest disaster conditions while maintaining updated background indicators for triage calculations.
-A lightweight Flask application is also used to serve dashboard-related outputs.
+A lightweight Flask application is also used to serve dashboard-related outputs(AI was used in this section to support output generation and presentation).
 <img width="1025" height="466" alt="image" src="https://github.com/user-attachments/assets/12817fb9-69f7-4cac-873e-08927770e750" />
 <img width="1513" height="1083" alt="image" src="https://github.com/user-attachments/assets/14d03244-1052-452c-a78f-2fc026f16a1b" />
 
